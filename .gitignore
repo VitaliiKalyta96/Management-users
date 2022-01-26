@@ -1,0 +1,13 @@
+venv
+.pycache/
+
+.idea
+.idea/
+
+users/__pycache__/
+users/migrations/__pycache__/
+groupusers/__pycache__/
+groupusers/migrations/__pycache__/
+
+.pycache
+pycache/
