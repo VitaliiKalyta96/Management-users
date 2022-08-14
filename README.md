@@ -51,15 +51,14 @@ Access the address http://localhost:8000/api/users/ or http://localhost:8000/api
 
 ### Running the React project(frontend)
 
+After load projects you have see next picture in your screen the browser.
+
+![Screenshot from 2022-01-26 01-15-53](https://user-images.githubusercontent.com/86627796/151081350-4b032313-58f3-49f9-8f48-13910c786f2b.png)
+
 First, `cd` the `frontend/` directory and run next command:
 
 ```bash
 sudo docker-compose up --build
 sudo docker-compose up
+.
 ```
-After load projects you have see next picture in your screen the browser.
-
-![Screenshot from 2022-01-26 01-15-53](https://user-images.githubusercontent.com/86627796/151081350-4b032313-58f3-49f9-8f48-13910c786f2b.png)
-
-
-Good luck! 🏞🌞
