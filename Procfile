@@ -1,1 +1,5 @@
-web: gunicorn backend.wsgi:application --bind 0.0.0.0:8000 --log-file -
+release: python manage.py migrate
+
+web: gunicorn backend.wsgi --log-file -
+
+worker: python manage.py rqworker default
