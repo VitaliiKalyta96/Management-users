@@ -11,4 +11,4 @@ release:
 # command:
 #   - ./release.sh
 run:
- web: uwsgi --http 0:$PORT --wsgi-file ./config/wsgi.py --master --processes 4 --threads 2
+ web: gunicorn backend.wsgi:application --bind 0.0.0.0:8000
