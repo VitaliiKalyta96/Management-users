@@ -1,3 +1,3 @@
-web: gunicorn -b 0.0.0.0:8000 backend.wsgi --log-file -
+web: gunicorn --bind 0.0.0.0:8000 backend.wsgi --log-file -
 
-worker: python manage.py rqworker default
+worker: python manage.py runserver 0.0.0.0:8000
