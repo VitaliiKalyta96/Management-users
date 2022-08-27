@@ -24,7 +24,7 @@ SECRET_KEY = 'jg^$(lbjb*3-+cv(88ngpb4xb=6vbvxj*1i)%m!*c2(e_i6%b8'
 # SECRET_KEY = os.environ.get('SECRET_KEY', default='foo')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 # DEBUG = int(os.environ.get('DEBUG', default=0))
 
 ALLOWED_HOSTS = ["heroku-managment-users.herokuapp.com", "127.0.0.1", "localhost"]
