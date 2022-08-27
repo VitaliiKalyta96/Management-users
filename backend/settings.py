@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'jg^$(lbjb*3-+cv(88ngpb4xb=6vbvxj*1i)%m!*c2
 DEBUG = int(os.getenv('DEBUG', 0))
 # DEBUG = True
 
-ALLOWED_HOSTS = ["heroku-managment-users.herokuapp.com", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["heroku-managment-users.herokuapp.com", "127.0.0.1", "localhost", "0.0.0.0"]
 
 # Application definition
 
