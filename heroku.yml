@@ -1,14 +1,17 @@
-setup:
- addons:
-   - plan: heroku-mysql
-build:
- docker:
-   web: ./Dockerfile
- config:
-   REQUIREMENTS_FILENAME: heroku.yml
-release:
- image: web
-# command:
-#   - ./release.sh
-run:
- web: gunicorn backend.wsgi:application --bind 0.0.0.0:8000
+#setup:
+# addons:
+#   - plan: heroku-mysql
+#build:
+# docker:
+#   web: ./Dockerfile
+# config:
+#   REQUIREMENTS_FILENAME: heroku.yml
+#release:
+# image: web
+## command:
+##   - ./release.sh
+#run:
+# web: gunicorn backend.wsgi:application --bind 0.0.0.0:8000
+#build:
+#  docker:
+#    web: Dockerfile
