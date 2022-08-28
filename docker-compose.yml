@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: Dockerfile
 #    command: python manage.py runserver 0.0.0.0:8000
-    command: gunicorn backend.wsgi:application --bind 0.0.0.0:8000 --log-file -
+    command: gunicorn backend.wsgi:application --bind 0.0.0.0:8000
     environment:
       DEBUG: 1
     volumes:
